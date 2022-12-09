@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:background="@color/black"
+        >
+
+        <Button
+
+            android:id="@+id/button1"
+
+            android:layout_width="203dp"
+
+
+            android:layout_height="42dp"
+            android:layout_below="@+id/button2"
+            android:layout_alignParentEnd="true"
+
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="102dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnba"
+            android:contentDescription="Doc3"
+
+            android:drawableLeft="@drawable/ic_baseline_picture_as_pdf_24"
+            android:text="Doc3" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="203dp"
+            android:layout_height="42dp"
+            android:drawableLeft="@drawable/ic_baseline_picture_as_pdf_24"
+            android:layout_below="@+id/button3"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="103dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnba"
+            android:src="@drawable/ic_baseline_picture_as_pdf_24"
+            android:text="Doc2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="203dp"
+            android:layout_height="42dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/ic_baseline_picture_as_pdf_24"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="102dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnba"
+            android:src="@drawable/ic_baseline_picture_as_pdf_24"
+            android:text="Doc1" />
+    </RelativeLayout>
+</LinearLayout>
+
